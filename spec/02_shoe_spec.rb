@@ -1,4 +1,4 @@
-require "pry"
+
 describe 'Shoe' do
   let(:shoe) { Shoe.new("Nike") }
 
@@ -11,7 +11,6 @@ describe 'Shoe' do
   describe 'properties' do
     it 'has a brand' do
       # When must the brand be assigned for this to work?
-      binding.pry
       expect(shoe.brand).to eq("Nike")
     end
 
